@@ -9,7 +9,8 @@ function Navbar() {
             <li>Home</li>
             <li>About</li>
             <li>Resources</li>
-            <li>Help me please cd need more fronts</li>
+            <li>Users</li>
+            <li>Elements</li>
         </ul>
     </div>
   );
