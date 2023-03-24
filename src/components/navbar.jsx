@@ -9,8 +9,7 @@ function Navbar() {
             <li>Home</li>
             <li>About</li>
             <li>Resources</li>
-            <li>Users</li>
-            <li>Elements</li>
+            <li>Exit</li>
         </ul>
     </div>
   );
