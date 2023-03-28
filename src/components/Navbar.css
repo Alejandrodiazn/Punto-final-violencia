@@ -1,0 +1,33 @@
+.mainNavMenu-btn {
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+.mainNavMenu-btn span{
+    display: block;
+    width: 3rem;
+    height: 2.5px;
+    background: white;
+}
+.mainNavHeader-nav {
+    display:none;
+}
+.mainNavDraw {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .mainNavMenu-btn {
+      display: none;
+    }
+  
+    .mainNavHeader-nav {
+      display: block;
+    }
+}
