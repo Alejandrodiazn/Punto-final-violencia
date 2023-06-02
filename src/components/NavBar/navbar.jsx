@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
+import styled from 'styled-components';
 
-import SideDrawer from './SideDrawer';
-import MainHeader from './MainHeader';
-import Backdrop from './Backdrop';
-import NavLinks from './NavLinks';
+import SideDrawer from '../SideDrawer/SideDrawer'; /**/
+import MainHeader from '../MainHeader/MainHeader'; /**/
+import Backdrop from '../Backdrop/Backdrop';
+import NavLinks from '../NavLinks/NavLinks';
 import './Navbar.css'
 
 const Navbar = (props) => {
@@ -17,8 +18,8 @@ const Navbar = (props) => {
   };
 
   return (
-    <React.Fragment>
-      {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
+   <React.Fragment>
+     {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
       
         <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
           <div> {/* wrap child components in a div */}
@@ -26,7 +27,7 @@ const Navbar = (props) => {
               <NavLinks />
             </nav>
           </div>
-        </SideDrawer>
+    </SideDrawer>
       
 
       <MainHeader>
