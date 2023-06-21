@@ -1,0 +1,80 @@
+{
+    "C-id-1": {
+        "texto": "Hola, oye vi tu exposición sobre los problemas psicológicos del abuso y me pareció muy interesante",
+        "rol": "onvre"
+    },
+    "C-id-2": {
+        "texto": "Oh, gracias. Realizamos esta investigación durante 11 años y nos dio gusto dar a conocer los resultados",
+        "rol": "mujer"
+    },
+    "C-id-3": {
+        "texto": "Vaya, no sabía que llevaban tanto tiempo con este proyecto",
+        "rol": "onvre"
+    },
+    "C-id-4": {
+        "texto": "Si, más que nada porque necesitamos un gran número de personas para probar nuestra hipótesis",
+        "rol": "mujer"
+    },
+    "C-id-5": {
+        "texto": "Interesante, aunque creo que les hubiese favorecido contar con personal más experimentado, sólo quería darte ese consejo :blush:",
+        "rol": "onvre"
+    },
+    "D-id-1": {
+        "decision-1": {
+            "texto": "¿A qué te refieres con eso?",
+            "C-id-1": {
+                "texto": "¿A qué te refieres con eso? ¿crees que nuestra investigación no fue suficiente o no estuvo bien elaborada?",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Creo que tu población no es un buen indicador, y que sus métodos no fueron realizados de acuerdo a los estándares, no se nota tu experiencia",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "Verás, he estado muy productivo este semestre en psicología, y me ofende la manera en que realizaron ese estudio tan prometedor, llevo poco tiempo de estudio pero podría hacer un mejor trabajo",
+                "rol": "onvre"
+            },
+            "C-id-4":{
+                "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+                "rol": "onvre"
+            }
+        },
+        "decision-2": {
+            "texto": "No estoy de acuerdo",
+            "C-id-1": {
+                "texto": "¿Con qué conocimientos de psicología cuentas para diferir? No estoy de acuerdo con tu opinión",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Muy buena tu pregunta, permíteme ilustrarte porque se ve que te falta entender mucho",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "Verás, he estado muy productivo este semestre en psicología, y me ofende la manera en que realizaron ese estudio tan prometedor, llevo poco tiempo de estudio pero podría hacer un mejor trabajo",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+                "rol": "onvre"
+            }
+        },
+        "decision-3": {
+            "texto": "Opino lo Mismo",
+            "C-id-1": {
+                "texto": "Opino lo mismo, pero tuvimos problemas para encontrar un muestreo mas grande",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Precisamente, una población más grande hubiese ayudado, te comento todo esto para ayudarte en tus futuras investigaciones porque parece que no sabes mucho",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "Verás, he estado muy productivo este semestre en psicología, y me ofende la manera en que realizaron ese estudio tan prometedor, llevo poco tiempo de estudio pero podría hacer un mejor trabajo",
+                "rol": "onvre"
+            },
+            "C-id-4":{
+                "texto":"Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:"
+            }
+        }
+    }
+}
