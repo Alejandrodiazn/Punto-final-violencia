@@ -18,8 +18,8 @@ const Navbar = (props) => {
   };
 
   return (
-   <React.Fragment>
-     {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
+  <React.Fragment>
+    {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
       
         <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
           <div> {/* wrap child components in a div */}
