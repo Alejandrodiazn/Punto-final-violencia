@@ -35,7 +35,7 @@
             "rol": "onvre"
         },
         "C-id-4": {
-            "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+            "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿no debieron pensar en ayudarlos con sus problemas? :confounded:",
             "rol": "onvre"
         },
         "decision-1": {
@@ -211,7 +211,7 @@
         "texto": "No estoy de acuerdo",
         "rol": "decision",
         "C-id-1": {
-            "texto": "¿Con qué conocimientos de psicología cuentas para diferir? No estoy de acuerdo con tu opinión",
+            "texto": "¿Con qué conocimientos de psicología cuentas para diferir? no estoy de acuerdo con tu opinión",
             "rol": "mujer"
         },
         "C-id-2": {
@@ -223,7 +223,7 @@
             "rol": "onvre"
         },
         "C-id-4": {
-            "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+            "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿no debieron pensar en ayudarlos con sus problemas? :confounded:",
             "rol": "onvre"
         },
         "decision-1": {
@@ -411,7 +411,7 @@
             "rol": "onvre"
         },
         "C-id-4": {
-            "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+            "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿no debieron pensar en ayudarlos con sus problemas? :confounded:",
             "rol": "onvre"
         },
         "decision-1": {
