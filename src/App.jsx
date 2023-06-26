@@ -1,17 +1,14 @@
 import './App.css'
 import React from 'react';
-import Navbar from './components/Navbar/navbar.jsx';
+import { Landing } from './pages/landing/landing';
+
+
+//AQUI SE CORREGIRÁ TODO SE AÑADIRAN ROOTERS PARA MOVERSE ENTRE PAGINAS
 function App() {
 
   return (
-    <main>
-      <Navbar/>
-      <div>
-        <p>Hola soy el body epico</p>
-      </div>
-    </main>
-
+    <Landing/>
   )
 }
 
-export default App
+export {App}
