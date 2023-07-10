@@ -1,0 +1,189 @@
+{
+    "introduccion": {
+        "C-id-1": {
+            "texto": "Hola, oye vi tu exposición sobre los problemas psicológicos del abuso y me pareció muy interesante",
+            "rol": "onvre"
+        },
+        "C-id-2": {
+            "texto": "Oh, gracias. Realizamos esta investigación durante 11 años y nos dio gusto dar a conocer los resultados",
+            "rol": "mujer"
+        },
+        "C-id-3": {
+            "texto": "Vaya, no sabía que llevaban tanto tiempo con este proyecto",
+            "rol": "onvre"
+        },
+        "C-id-4": {
+            "texto": "Si, más que nada porque necesitamos un gran número de personas para probar nuestra hipótesis",
+            "rol": "mujer"
+        },
+        "C-id-5": {
+            "texto": "Interesante, aunque creo que les hubiese favorecido contar con personal más experimentado, sólo quería darte ese consejo :blush:",
+            "rol": "onvre"
+        }
+    },
+
+    "seccion-1": {
+        "decision-1": {
+            "texto": "¿A qué te refieres con eso?",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "¿A qué te refieres con eso? ¿crees que nuestra investigación no fue suficiente o no estuvo bien elaborada?",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Creo que tu población no es un buen indicador, y que sus métodos no fueron realizados de acuerdo a los estándares, no se nota tu experiencia",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "Verás, he estado muy productivo este semestre en psicología, y me ofende la manera en que realizaron ese estudio tan prometedor, llevo poco tiempo de estudio pero podría hacer un mejor trabajo",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+                "rol": "onvre"
+            }
+        },
+        "decision-2": {
+            "texto": "No estoy de acuerdo",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "¿Con qué conocimientos de psicología cuentas para diferir? No estoy de acuerdo con tu opinión",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Muy buena tu pregunta, permíteme ilustrarte porque se ve que te falta entender mucho",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "Verás, he estado muy productivo este semestre en psicología, y me ofende la manera en que realizaron ese estudio tan prometedor, llevo poco tiempo de estudio pero podría hacer un mejor trabajo",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+                "rol": "onvre"
+            }
+        },
+        "decision-3": {
+            "texto": "Opino lo Mismo",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "Opino lo mismo, pero tuvimos problemas para encontrar un muestreo mas grande",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Precisamente, una población más grande hubiese ayudado, te comento todo esto para ayudarte en tus futuras investigaciones porque parece que no sabes mucho",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "Verás, he estado muy productivo este semestre en psicología, y me ofende la manera en que realizaron ese estudio tan prometedor, llevo poco tiempo de estudio pero podría hacer un mejor trabajo",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Veo que tampoco se consideró buscar el cómo apoyar a estas personas, ¿no crees que es una falta de empatía? ¿No debieron pensar en ayudarlos con sus problemas? :confounded:",
+                "rol": "onvre"
+            }
+        }
+    },
+
+    "seccion-2": {
+        "decision-1": {
+            "texto": "No se pudo darles seguimiento a sus casos",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "Por dificultades como te comenté, no pudimos dar seguimiento a las personas y ayudarlos individualmente en sus casos... esa no es nuestra área de especialidad",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Claramente se ve la falta de dedicación en ese ámbito :face_with_rolling_eyes:",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "No entiendo porqué entraste en el área de la salud si no es para ayudar a la gente, cuando me gradúe no voy a ser como tú",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Se supone que la salud mental debe ser prioridad para un psicólogo, mantener la salud mental de una persona para que ésta no tenga problemas a futuro. Deberían tener vergüenza",
+                "rol": "onvre"
+            }
+        },
+        "decision-2": {
+            "texto": "Sólo les ofrecimos recomendaciones",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "Nuestra investigación buscaba estudiar sus casos para así lograr ayudar a muchas más personas en el futuro. No tuvimos la posibilidad de apoyarlos en esta ocasión pero los orientamos a lugares donde les pueden ofrecer más ayuda",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "¿Sólo eso hicieron? :face_with_raised_eyebrow:",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "No entiendo porqué entraste en el área de la salud si no es para ayudar a la gente, cuando me gradúe no voy a ser como tú",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Se supone que la salud mental debe ser prioridad para un psicólogo, mantener la salud mental de una persona para que ésta no tenga problemas a futuro. Deberían tener vergüenza",
+                "rol": "onvre"
+            }
+        },
+        "decision-3": {
+            "texto": "No dentro de la investigación",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "Pues como tal, eso no nos compete a nosotras como investigadoras, aún así si leíste el papel por completo verás que se les orientó hacia una institución donde los podrán ayudar más",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Sinceramente no puedo creer que seas tan fría con los problemas de las personas",
+                "rol": "onvre"
+            },
+            "C-id-3": {
+                "texto": "No entiendo porqué entraste en el área de la salud si no es para ayudar a la gente, cuando me gradúe no voy a ser como tú",
+                "rol": "onvre"
+            },
+            "C-id-4": {
+                "texto": "Se supone que la salud mental debe ser prioridad para un psicólogo, mantener la salud mental de una persona para que ésta no tenga problemas a futuro. Deberían tener vergüenza",
+                "rol": "onvre"
+            }
+        }
+    },
+
+    "seccion-3": {
+        "decision-1": {
+            "texto": "No me quedaré callada con lo que dijiste",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "No me quedaré callada acerca de todo lo que me has dicho hoy, vi tu uniforme y tengo muchos colegas que son maestros en tu universidad y sabrán qué tipo de estudiante eres y ojalá que impidan que alguien tan egocéntrico se gradúe",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Jajaja qué madurez la tuya. Nos vemos :+1:",
+                "rol": "onvre"
+            }
+        },
+        "decision-2": {
+            "texto": "Respeto tu opinión, pero...",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "Respeto tu opinión aunque no la comparto. Creo que al hacer mi trabajo lograré ayudar a más personas de las que hubiera logrado si sólo me hubiera concentrado en un grupo, y sé que mejorarán mucho sus vidas con los lugares a donde los canalizamos",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Por lo visto mis recomendaciones han caído en oídos sordos, hasta luego vieja fastidiosa :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing::rolling_on_the_floor_laughing:",
+                "rol": "onvre"
+            }
+        },
+        "decision-3": {
+            "texto": "Indiferencia",
+            "rol": "decision",
+            "C-id-1": {
+                "texto": "Pues gracias por tu comentario, agradezco tu opinión así que dejaremos la conversación hasta aquí",
+                "rol": "mujer"
+            },
+            "C-id-2": {
+                "texto": "Muy bien, esperemos que sí se te quede algo de lo que te recomendé. Hasta luego :ok_hand:",
+                "rol": "onvre"
+            }
+        }
+    }
+}
