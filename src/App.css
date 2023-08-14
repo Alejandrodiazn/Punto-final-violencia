@@ -1,7 +1,8 @@
 #root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%; /* O el ancho deseado */
+  height: 100vh; /* Altura completa de la ventana */
+  background-color: #f0f0f0; /* Color de fondo */
+  font-family: 'Arial', sans-serif; /* Fuente de texto predeterminada */
 }
 
 /* AQUI el random de vite añadió los etilos del app.jsx que eran del logo y presentaciín de vite */
