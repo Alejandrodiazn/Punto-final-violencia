@@ -10,7 +10,7 @@ function App() {
     <main>
       <Landing/>
       <div class="inicio">
-        
+        <img src='src/images/logo.png'></img>
       </div>
     </main>
   )
