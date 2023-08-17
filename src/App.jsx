@@ -10,7 +10,13 @@ function App() {
     <main>
       <Landing/>
       <div class="inicio">
-        <img src='src/images/logo.png'></img>
+        <div class="fondo">
+          <div class="carousel">
+            <div class="slide"></div>
+            <img class="logo" src='src/images/logo.png'></img>
+            <div class="name"><p>Punto final a la violencia</p></div>
+          </div>
+        </div>
       </div>
     </main>
   )
