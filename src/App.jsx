@@ -7,18 +7,19 @@ import { Landing } from './pages/landing/landing';
 function App() {
 
   return (
-    <main>
+    <>
       <Landing/>
-      <div class="inicio">
-        <div class="fondo">
-          <div class="carousel">
-            <div class="slide"></div>
-            <img class="logo" src='src/images/logo.png'></img>
-            <div class="name"><p>Punto final a la violencia</p></div>
+      <div className="inicio">
+        <div className="fondo">
+          <div className="carousel">
+            <div className="slide"></div>
+            <img className="logo" src='src/images/logo.png'></img>
+            <div className="name"><p>Punto final a</p></div>
+            <div className="name2"><p>la violencia</p></div>
           </div>
         </div>
       </div>
-    </main>
+    </>
   )
 }
 
