@@ -13,9 +13,7 @@
   color:white;
   position: absolute;
   top: 375px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 .name2 p{
   font-family: 'Marmelad', sans-serif;
@@ -24,9 +22,15 @@
   color:white;
   position: absolute;
   top: 400px;
-  text-align: center;
-  display: flex;
+  width: 100%;
 }
+/* Posicionar los textos */
+.cajitadenombres {
+  display: flex;
+  text-align: center;
+  width: 100vw;
+}
+
 /* posicionar el logo al centro y sobre el fondo */
 .logo{
   height: 500px;
