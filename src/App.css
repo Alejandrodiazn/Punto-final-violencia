@@ -6,22 +6,47 @@
   text-align: center;
 }
 
-.name p{
+.name1 p{
   font-family: 'Marmelad', sans-serif;
-  font-size: 90px;
+  font-size: 32.876px;
+  font-weight: 400;
   color:white;
   position: absolute;
-  top: 600px;
+  top: 375px;
+  text-align: center;
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+.name2 p{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 42.395px;
+  font-weight: 400;
+  color:white;
+  position: absolute;
+  top: 400px;
+  text-align: center;
+  display: flex;
 }
 /* posicionar el logo al centro y sobre el fondo */
 .logo{
   height: 500px;
-  top: 100px;
+  top: 150px;
   position: absolute;
   transform: translate(-50%);
-  text-align: center;
+  align-items: center;
+  width: 178px;
+  height: 230px;
+}
+
+/* posicionar la flechita al centro y sobre el fondo */
+.flechita{
+  height: 500px;
+  top: 600px;
+  position: absolute;
+  transform: translate(-50%);
+  align-items: center;
+  width: 33.5px;
+  height: 24.875px;
 }
 
 /* animación del background */
@@ -30,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 850px;
+  height: 650px;
   overflow: hidden;
 }
 
