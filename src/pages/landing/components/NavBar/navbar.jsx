@@ -1,50 +1,34 @@
-import React, {useState} from 'react';
-import styled from 'styled-components';
+import React, { useState } from 'react';
+import './Navbar.css'; // Asegúrate de crear este archivo CSS para estilizar el componente
 
-import SideDrawer from '../SideDrawer/SideDrawer'; /**/
-import MainHeader from '../MainHeader/MainHeader'; /**/
-import Backdrop from '../Backdrop/Backdrop';
-import NavLinks from '../NavLinks/NavLinks';
-import './Navbar.css'
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-const Navbar = (props) => {
-  const [drawerIsOpen, setDrawerIsOpen] = useState(false);
-  const openDrawerHandler = () => {
-    setDrawerIsOpen(true);
-  };
-
-  const closeDrawerHandler = () => {
-    setDrawerIsOpen(false);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
-  <React.Fragment>
-    {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
-      
-        <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
-          <div> {/* wrap child components in a div */}
-            <nav className="mainNavDraw">
-              <NavLinks />
-            </nav>
-          </div>
-    </SideDrawer>
-      
-
-      <MainHeader>
-        <button className="mainNavMenu-btn" onClick={openDrawerHandler}>
-          <span />
-          <span />
-          <span />
-        </button>
-        <nav className="mainNavHeader-nav">
-          <ul>
-            <NavLinks />
-          </ul>
-        </nav>
-      </MainHeader>
-    </React.Fragment>
+    <>
+      <button id="burger" className={`open-main-nav ${menuOpen ? 'is-open' : ''}`} onClick={toggleMenu}  >
+        <span className="burger"></span>
+      </button>
+      <nav className={`main-nav ${menuOpen ? 'is-open' : ''}`} id="main-nav">
+        <ul>
+          <li>
+            <a href="#">Acerca de</a>
+          </li>
+          <li>
+            <a href="#">Recursos</a>
+          </li>
+          <li>
+            <a href="#">Ayuda</a>
+          </li>
+        </ul>
+      </nav>
+	  </>
   );
 };
 
 
-export  {Navbar};
+export default Navbar;
