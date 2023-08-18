@@ -71,7 +71,11 @@
     background-size: auto;
     animation: carouselAnimation 40s  linear  infinite; 
   }
-  
+  main {
+    margin: 0 auto;
+    text-align: center;
+    background-color: violet;
+  }
   @keyframes carouselAnimation {
    
     0% {
