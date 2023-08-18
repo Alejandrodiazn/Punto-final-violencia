@@ -1,0 +1,7 @@
+.back-button {
+  width: 12.75px;
+  height: 26px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: var(--azul-wunsup, #0a357b);
+}
