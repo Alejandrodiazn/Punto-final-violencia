@@ -8,9 +8,6 @@ function Landing() {
 return (
     <main>
         <Navbar/>
-        <div>
-            <p>Hola soy la landing</p>
-        </div>
     </main>
     )
 }
