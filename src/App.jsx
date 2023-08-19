@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Landing } from "./pages/landing/Landing";
+import { Landing } from "./pages/landing/landing";
 import { Conversation } from "./pages/conversation/Conversation";
 
 //AQUI SE CORREGIRÁ TODO SE AÑADIRAN ROOTERS PARA MOVERSE ENTRE PAGINAS
