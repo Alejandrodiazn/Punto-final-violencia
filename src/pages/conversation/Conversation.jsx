@@ -1,3 +1,4 @@
+import "@fontsource/quicksand";
 import "./Conversation.css";
 import { BackButton } from "../components/BackButton/BackButton";
 import { Pfp } from "../components/ProfilePic/Pfp";
@@ -5,11 +6,19 @@ export const Conversation = ({ username }) => {
   return (
     <>
       <div className="nav-conversation">
-        <BackButton linkPath={"https://google.com"}/>
+        <BackButton linkPath="https://google.com" />
         <div className="profile-container">
-            <Pfp pathToFile={"https://www.nj.com/resizer/mg42jsVYwvbHKUUFQzpw6gyKmBg=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.nj.com/home/njo-media/width2048/img/somerset_impact/photo/sm0212petjpg-7a377c1c93f64d37.jpg"}/>
+          <Pfp pathToFile="src/pages/conversation/images/primera-foto.jpg"/>
+          <div className="profile-text-container">
+            <div className="profile-username">{username}</div>
+            <div className="profile-last-seen">Ultima vez hace 5 minutos</div>
+          </div>
+        </div>
+        <div className="information-logo-container">
+          <a className="information-text">i</a>
         </div>
       </div>
+      <div className="conversation-container"></div>
     </>
   );
 };
