@@ -1,76 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
-
-#root {
+/* #root {
   margin: 0 auto;
-  /* padding: 2rem; */
   text-align: center;
-}
+  background-color: violet;
+} */
 
-
-.name p{
-  font-family: 'Marmelad', sans-serif;
-  font-size: 30px;
-  color:white;
-  position: absolute;
-  top: 320px;
-  display: flex;
-  text-align: center;
-}
-
-
-.name2 p{
-    font-family: 'Marmelad', sans-serif;
-    font-size: 40px;
-    color:white;
-    position: absolute;
-    top: 350px;
-    display: flex;
-    font-weight: 500;
-    text-align: center;
-}
-
-/* posicionar el logo al centro y sobre el fondo */
-.logo{
-  height: 230px;
-  top: 100px;
-  position: absolute;
-  transform: translate(-50%);
-  text-align: center;
-}
-
-/* animación del background */
-.fondo {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 600px;
-  overflow: hidden;
-}
-
-.carousel {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.slide {
-  position: relative;
-  width: 100%;
-  background-image: url('images/background.png');
-  height: 5076px;
-  background-size: auto;
-  animation: carouselAnimation 40s  linear  infinite; 
-}
-
-@keyframes carouselAnimation {
- 
-  0% {
-    transform: translateY(0)
-  }
-  100% {
-    transform: translateY(-3000px); 
-  }
-}
 
 /* AQUI el random de vite añadió los etilos del app.jsx que eran del logo y presentaciín de vite */
