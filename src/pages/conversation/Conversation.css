@@ -1,0 +1,17 @@
+.nav-conversation{
+    display: flex;
+    width: 100%;
+    background: var(--bg-header, #FFF);
+    height: 87px;
+    padding: 0px 25px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.profile-container{
+    display: flex;
+    padding: 0px 18px;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+}

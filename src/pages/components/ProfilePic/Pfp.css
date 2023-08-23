@@ -1,0 +1,6 @@
+.image-container img {
+  width: 58.529px;
+  height: 58.529px;
+  border-radius: 58.529px;
+  border: 2px solid var(--wunsup-main-color, #0a357b);
+}
