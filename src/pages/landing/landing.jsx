@@ -1,15 +1,13 @@
 import "./landing.css";
 import React from "react";
 import Navbar from "../components/NavBar/navbar.jsx";
+import ChatsView from "../components/ChatsView/ChatsView.jsx";
 
 //Aquí se añadira la estructura de nelly (recordar que esto no es HTML es JSX)
 function Landing() {
   return (
     <main>
         <Navbar />
-        {/* <div>
-            <p>Hola soy la landing</p>
-        </div> */}
         <div className="inicio">
           <div className="fondo">
             <div className="carousel">
@@ -33,6 +31,7 @@ function Landing() {
             </div>
           </div>
       </div>
+      <ChatsView/>
     </main>
   );
 }
