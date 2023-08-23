@@ -5,7 +5,7 @@ import SideDrawer from '../SideDrawer/SideDrawer'; /**/
 import MainHeader from '../MainHeader/MainHeader'; /**/
 import Backdrop from '../Backdrop/Backdrop';
 import NavLinks from '../NavLinks/NavLinks';
-import './Navbar.css'
+import './Navbar.css';
 
 const Navbar = (props) => {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
