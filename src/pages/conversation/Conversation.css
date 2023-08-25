@@ -64,3 +64,7 @@
     font-weight: 500;
     line-height: normal;
 }
+.conversation-container{
+  height: 100vh;
+  background-image: url("src/pages/conversation/images/fondo-de-chat.png");
+}

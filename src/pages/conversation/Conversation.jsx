@@ -2,6 +2,9 @@ import "@fontsource/quicksand";
 import "./Conversation.css";
 import { BackButton } from "../components/BackButton/BackButton";
 import { Pfp } from "../components/ProfilePic/Pfp";
+import { Message } from "../components/Message/Message";
+import SquareBullet from "../components/SquareBullet/IMessageBubble";
+import IMessageBubble from "../components/SquareBullet/IMessageBubble";
 export const Conversation = ({ username }) => {
   return (
     <>
@@ -18,7 +21,10 @@ export const Conversation = ({ username }) => {
           <a className="information-text">i</a>
         </div>
       </div>
-      <div className="conversation-container"></div>
+      <div className="conversation-container">
+        <IMessageBubble content={"Texto de "}/>
+        <IMessageBubble content={"Texto de usuario"} user={'user'} />
+      </div>
     </>
   );
 };
