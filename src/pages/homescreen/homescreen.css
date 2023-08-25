@@ -1,5 +1,6 @@
 /* homescreen.css */
 
+
 .container {
     display: grid;
     justify-content: center;
@@ -50,16 +51,21 @@
     gap: 10px;
     align-self: flex-end; /* Alinear botones en la parte inferior */
   }
-  
   .buttons button {
     width: calc(33.33% - 10px); /* Ancho de botón con margen */
     border-radius: 10px;
-    background-color: #fff; /* Color de fondo */
+    background-color: transparent; /* Color de fondo, estaba como blanco*/ 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px; /* Tamaño de fuente */
     color: #333; /* Color del texto */
+    border: transparent;
+  }
+  .button-svg img{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
   }
   
   

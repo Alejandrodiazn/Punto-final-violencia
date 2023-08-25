@@ -2,7 +2,11 @@ import React, { useEffect } from 'react';
 import StatusBar from './StatusBar';
 import './homescreen.css';
 import svgRecursos from './icons/recursos.svg'
-
+import svgWunsup from './icons/wunsup.svg'
+import svgSalir from './icons/Salir.svg'
+import svgNosotros from './icons/nosotros.svg'
+import svgFAQ from './icons/faq.svg'
+import svgAyuda from './icons/ayuda.svg'
 
 function HomeScreen() {
  
@@ -23,23 +27,51 @@ function HomeScreen() {
   return (
     <div className="container">
       <div className="box">
-      <div className="statusBar"> <StatusBar /> </div>
-      
-        <h2>MANSPLAINING</h2>
+      <div className="statusBar">
+        <StatusBar />
+      </div>
+        <h2>Homescreen</h2>
         {/* Real-time clock */}
         <div className="clock">
           <p id="time"></p>
         </div>
-
         <div className="buttons">
-        <button>Wunsup</button>
         <button>
-          <img src={svgRecursos} alt="Icono de recursos" />
+          <div class="button-svg">
+            <img src={svgWunsup} alt="icono de wunsup" />
+            Wunsup
+          </div>
         </button>
-        <button>Salir</button>
-        <button>Nosotros</button>
-        <button>FAQ</button>
-        <button>Ayuda</button>
+        <button>
+          <div class="button-svg">
+            <img src={svgRecursos} alt="Icono de recursos" />
+            Recursos
+          </div>
+        </button>
+        <button>
+          <div class="button-svg">
+            <img src={svgSalir} alt="Icono de salir" />
+            Salir
+          </div>
+        </button>
+        <button>
+          <div class="button-svg">
+            <img src={svgNosotros} alt="Icono de nosotros" />
+            Nosotros
+          </div>
+        </button>
+        <button>
+          <div class="button-svg">
+            <img src={svgFAQ} alt="Icono de FAQ" />
+            FAQ
+          </div>
+        </button>
+        <button>
+          <div class="button-svg">
+            <img src={svgAyuda} alt="Icono de ayuda" />
+            Ayuda
+          </div>
+        </button>
         </div>
       </div>
     </div>
