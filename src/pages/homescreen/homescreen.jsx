@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import StatusBar from './StatusBar';
 import './homescreen.css';
+import svgRecursos from './icons/recursos.svg'
 
 
 function HomeScreen() {
@@ -32,7 +33,9 @@ function HomeScreen() {
 
         <div className="buttons">
         <button>Wunsup</button>
-        <button>Recursos</button>
+        <button>
+          <img src={svgRecursos} alt="Icono de recursos" />
+        </button>
         <button>Salir</button>
         <button>Nosotros</button>
         <button>FAQ</button>

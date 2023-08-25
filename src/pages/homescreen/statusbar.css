@@ -33,4 +33,12 @@
   .battery-percentage {
     font-size: 12px;
   }
+
+  .front-camera {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    background-color: #000000;
+    opacity: 0.8;
+  }
   
