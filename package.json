@@ -10,6 +10,7 @@
     "start": "nodemon  vite"
   },
   "dependencies": {
+    "@fontsource/quicksand": "^5.0.8",
     "@react-three/fiber": "^8.12.0",
     "@types/three": "^0.149.0",
     "bootstrap": "^5.2.3",
