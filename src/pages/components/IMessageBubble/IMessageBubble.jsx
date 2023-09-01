@@ -1,7 +1,7 @@
 import React from 'react';
 import './IMessageBubble.css'; // Asegúrate de importar o aplicar el estilo adecuado
 
-const IMessageBubble = ({ content, user }) => {
+export const IMessageBubble = ({ content, user }) => {
   const isUserMessage = user === 'user';
 
   return (
@@ -16,4 +16,3 @@ const IMessageBubble = ({ content, user }) => {
   );
 };
 
-export default IMessageBubble;
