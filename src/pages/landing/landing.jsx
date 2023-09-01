@@ -7,9 +7,6 @@ function Landing() {
   return (
     <main>
         <Navbar />
-        {/* <div>
-            <p>Hola soy la landing</p>
-        </div> */}
         <div className="inicio">
           <div className="fondo">
             <div className="carousel">
