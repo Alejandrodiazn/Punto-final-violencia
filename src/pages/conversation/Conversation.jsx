@@ -7,7 +7,7 @@ export const Conversation = ({ username }) => {
     <>
       <div className="nav-conversation">
         <BackButton linkPath={"https://google.com"} />
-        <p>{username}</p>
+        
         <div className="profile-container">
           <Pfp
             pathToFile={
@@ -15,9 +15,18 @@ export const Conversation = ({ username }) => {
             }
           />
         </div>
+        {username}
       </div>
-      <IMessageBubble content={"Hola, soy Antonio Loquillo"} />
-      <IMessageBubble content={"Hola, no soy Antonio Loquillo"} user={"user"} />
+      <div className="conversation-container">
+        <div className="conversation-header">
+          <h2>Conversación</h2>
+        </div>
+        <div className="conversation-body">
+          <IMessageBubble content={"Hola, soy Antonio LoquilloAAAAAAAAAAA AAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"} />
+          <IMessageBubble content={"Hola, no soy Antonio Loquillo"} user={"user"} />
+          <IMessageBubble content={"Hola, soy Antonio Loquillo"} />
+          <IMessageBubble content={"Hola, no soy Antonio Loquillo"} user={"user"} />"
+        </div>
+      </div>
     </>
-  );
-};
+  )};
