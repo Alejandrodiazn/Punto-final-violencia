@@ -62,6 +62,25 @@
     color: #333; /* Color del texto */
     border: transparent;
   }
+
+  .quick-access {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente */
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .buttons button.quick-access img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
   .button-svg img{
     background-color: #fff;
     padding: 5px;
@@ -72,3 +91,24 @@
   @media(max-width: 500px) {
     /* Estilos para pantallas pequeñas */
   }
+
+  @keyframes changeGradient {
+    0% {
+      background: linear-gradient(45deg, #80e4fa, #ff4ea4);
+    }
+    25% {
+      background: linear-gradient(45deg, #ff4ea4, #ffc94e);
+    }
+    50% {
+      background: linear-gradient(45deg, #ffc94e, #5aff5c);
+    }
+    75% {
+      background: linear-gradient(45deg, #5aff5c, #80e4fa);
+    }
+    100% {
+      background: linear-gradient(45deg, #80e4fa, #ff4ea4);
+    }
+  }
+  
+
+  
