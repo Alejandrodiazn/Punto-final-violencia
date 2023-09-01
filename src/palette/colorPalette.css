@@ -1,6 +1,16 @@
 :root{
-    --primary: #A7C8F2;
-    --secundary: #F2B3D1;
-    --success: #D0F2E6;
-    --info: #D96A9E;
+    --azulClaro: #A7C8F2;
+    --rosaClaro: #F2B3D1;
+    --verdeClaro: #D0F2E6;
+    --rosaOscuro: #D96A9E;
+    --coral: #F288A4;
+    --amarilloClaro: #FDEFA4;
+    --azulWunsup: #0A357B;
+    --azulMarinoWunsup: #003B86;
+    --negroWunsupLetras: #230B23;
+    --verdeBotones: #E2F19B;
+    --numVerdeBotones: #F8FFD7;
+    --enviarBoton: #5472A3;
+    --verdeConversaciones: #F6FFCB;
+    --moradoIconos: #701870;
 }
