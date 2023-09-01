@@ -37,41 +37,44 @@ function HomeScreen() {
         </div>
         <div className="buttons">
         <button>
-          <div class="button-svg">
+          <div className="button-svg">
             <img src={svgWunsup} alt="icono de wunsup" />
             Wunsup
           </div>
         </button>
         <button>
-          <div class="button-svg">
+          <div className="button-svg">
             <img src={svgRecursos} alt="Icono de recursos" />
             Recursos
           </div>
         </button>
         <button>
-          <div class="button-svg">
+          <div className="button-svg">
             <img src={svgSalir} alt="Icono de salir" />
             Salir
           </div>
         </button>
+        <div className='quick-access'>
         <button>
-          <div class="button-svg">
+          <div className="button-svg">
             <img src={svgNosotros} alt="Icono de nosotros" />
             Nosotros
           </div>
         </button>
+
         <button>
-          <div class="button-svg">
+          <div className="button-svg">
             <img src={svgFAQ} alt="Icono de FAQ" />
             FAQ
           </div>
         </button>
         <button>
-          <div class="button-svg">
+          <div className="button-svg">
             <img src={svgAyuda} alt="Icono de ayuda" />
             Ayuda
           </div>
         </button>
+        </div>
         </div>
       </div>
     </div>
