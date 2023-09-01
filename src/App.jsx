@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route index element={<Landing />}/>
-        <Route path="/Conversacion-1" element={<Conversation/>}/>
+        <Route path="/Conversacion-1" element={<Conversation username={"Antonio Loquillo"}/>}/>
         <Route path="/HomeScreen" element={<HomeScreen/>}/>
       </Routes>
       
