@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import './ChatsNav.css';
 
-const ChatsNav = (props) =>{
+export default function ChatsNav (props){
     return(
         <div class="base">
             <div class="name">
@@ -14,5 +14,3 @@ const ChatsNav = (props) =>{
         </div>
     )
 }
-
-export default ChatsNav; 
