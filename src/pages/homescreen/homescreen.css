@@ -1,0 +1,114 @@
+/* homescreen.css */
+
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .statusBar{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0; 
+  }
+
+  /* Contorno celular */
+  .box {
+    border: 12px solid #000;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 350px;
+    padding-top: 10rem; /* para que el contenido no quede detras del statusbar*/
+    width: 90%;
+    height: 70vh;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+    display: grid; /* usar grid para disposición de botones */
+    grid-template-rows: auto 1fr; /* Primera fila auto, segunda fila se expande */
+    position: relative;
+
+    background: linear-gradient(45deg, #80e4fa, #ff4ea4);
+    animation: rotatePhone 10s linear infinite; /* Rotación continua */
+    }
+
+
+  .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  /* Estilo a los botones */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-self: flex-end; /* Alinear botones en la parte inferior */
+  }
+  .buttons button {
+    width: calc(33.33% - 10px); /* Ancho de botón con margen */
+    border-radius: 10px;
+    background-color: transparent; /* Color de fondo, estaba como blanco*/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    border: transparent;
+  }
+
+  .quick-access {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente */
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .buttons button.quick-access img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  .button-svg img{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  
+  @media(max-width: 500px) {
+    /* Estilos para pantallas pequeñas */
+  }
+
+  @keyframes changeGradient {
+    0% {
+      background: linear-gradient(45deg, #80e4fa, #ff4ea4);
+    }
+    25% {
+      background: linear-gradient(45deg, #ff4ea4, #ffc94e);
+    }
+    50% {
+      background: linear-gradient(45deg, #ffc94e, #5aff5c);
+    }
+    75% {
+      background: linear-gradient(45deg, #5aff5c, #80e4fa);
+    }
+    100% {
+      background: linear-gradient(45deg, #80e4fa, #ff4ea4);
+    }
+  }
+  
+
+  
