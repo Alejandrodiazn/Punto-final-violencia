@@ -10,7 +10,7 @@
         },
         "C-id-3": {
             "texto": "Creo que no hay nada complejo con el día de muertos, todos saben de qué va :nerd_face:",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-4": {
             "texto": "De hecho no, cada cultura tiene tradiciones muy diferentes así que puede que se celebre de forma distinta en cada estado",
@@ -18,47 +18,47 @@
         },
         "C-id-5": {
             "texto": "No creo que sea verdad",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-6": {
             "texto": "De hecho sí, por ejemplo es diferente como celebran Xantolo en el estado de Querétaro a como lo hacen en la Huasteca Potosina",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-7": {
             "texto": "Antes de continuar, una pregunta, ¿Qué es Xantolo?",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-8": {
             "texto": "No andes inventando palabras",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-9": {
             "texto": "¿Cómo? ¿Nunca habían escuchado la palabra Xantolo?",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-10": {
             "texto": "No, no tengo ni idea de lo que es",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-11": {
             "texto": "No la topo",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-12": {
             "texto": "¿Quieren que les explique?",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-13": {
             "texto": "Sí, ¿qué significa?",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-14": {
             "texto": "Pues es que Xantolo es donde le celebramos a la mujer Xantolo, de ahí viene su nombre",
-            "rol": "onvre"
+            "rol": "."
         },
         "C-id-15": {
             "texto": "No, no es eso en sí, es una variante de la fiesta de día de muertos, propia de la huasteca",
-            "rol": "onvre"
+            "rol": "."
         }
     },
 
@@ -72,55 +72,55 @@
             },
             "C-id-2": {
                 "texto": "Tranquila, nos está explicando a todos",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-3": {
                 "texto": "Precisamente no estoy tratando de ofenderte o algo por el estilo, sólo que al menos los demás no conocen de lo que hablas",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-4": {
                 "texto": "Vamos a calmarnos, todo esto es un malentendido, no hay por qué exaltarnos",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-5": {
                 "texto": "Pues es que parece que me está tratando de tonta",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-6": {
                 "texto": "Espérame tantito, dejame terminar de explicar a qué me refiero",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-7": {
                 "texto": "Como trataba de decir, así lo conocen allá en donde vives, aquí no se le dice Xantolo ya que son dos cosas diferentes",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-8": {
                 "texto": "Por ejemplo: allá a los altares le dicen arcos, aquí no se les conoce como arcos...",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-9": {
                 "texto": "Así que esas son las diferencias, ya entendí",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-10": {
                 "texto": "Oh, eso no lo sabía, gracias por explicarme y una disculpa por exaltarme y ser un poco grosera",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-11": {
                 "texto": "Pues sí te pusiste un poco agresiva, pero no es para tanto :grinning:",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-12": {
                 "texto": "Yo digo que continuemos con la presentación, hay que dividir las tareas",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-13": {
                 "texto": "Antes de continuar, opino que como breviario cultural incluyamos esto que acabamos de aprender para la exposición. Sirve que los demás también conocen lo que es Xantolo",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-14": {
                 "texto": "Siii, me parece bien :D",
-                "rol": "onvre"
+                "rol": "."
             }
         },
         "decision-2": {
@@ -132,43 +132,43 @@
             },
             "C-id-2": {
                 "texto": "Lo que quería decir era eso mismo, que es como en la huasteca celebramos día de muertos",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-3": {
                 "texto": "Y que lleva ese nombre en honor a la mujer “Xantolo”",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-4": {
                 "texto": "Siii, es justo eso",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-5": {
                 "texto": "Ahh, con razón dijiste Xantolo XD",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-6": {
                 "texto": "No pues wow, el saber es poder",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-7": {
                 "texto": "Gracias por ayudarme a darme entender",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-8": {
                 "texto": "No es nada, aquí estamos para apoyarnos :)",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-9": {
                 "texto": "Mejor hay que empezar a trabajar que al parecer sí hay mucho que debemos investigar",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-10": {
                 "texto": "Sii mejor, hay muchas cosas sobre el día de muertos que debemos saber sobre otras regiones",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-11": {
                 "texto": "Pues ahorita dividimos las tareas :)",
-                "rol": "onvre"
+                "rol": "."
             }
         },
         "decision-3": {
@@ -180,35 +180,35 @@
             },
             "C-id-2": {
                 "texto": "Ella tiene razón, creo que has metido la pata",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-3": {
                 "texto": "¿Qué es eso? Lo siento, tampoco lo topo",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-4": {
                 "texto": "Es cuando un hombre le explica a una mujer un tema de forma condescendiente, pensando que desconoce de esto o incluso cuando claramente sí saben de lo que están hablando",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-5": {
                 "texto": "No siento que ese sea el caso si soy honesto",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-6": {
                 "texto": "No, lo siento si pareció que hice eso, solo que creo que la explicación que diste no dió a entender muy bien esa tradición. Sé que eres de la huasteca y conoces mejor esa costumbre y mucho mejor que yo",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-7": {
                 "texto": "Sólo no respondió de forma clara la duda de nuestros compañeros. Tampoco yo conozco quién es la mujer Xantolo, pero al compararlo con el día de muertos, los que no lo conocen lo entienden mejor",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-8": {
                 "texto": "Tiene razón, creo que te has equivocado y como una persona responsable merece una disculpa",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-9": {
                 "texto": "Tampoco creo que sea para tanto, todos nos podemos equivocar y no creo que se haya ofendido a Mary, ¿o si?",
-                "rol": "onvre"
+                "rol": "."
             }
         }
     },
@@ -223,123 +223,143 @@
             },
             "C-id-2": {
                 "texto": "No te apures, fue un pequeño error y yo sé mucho menos que tú, así que es entendible. Trataré de ser más claro de ahora en adelante ",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-3": {
                 "texto": "Y yo no saltaré a conclusiones apresuradas",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-4": {
                 "texto": "Qué bueno que ya se arregló esto. Es sorprendente el impacto que puede tener una palabra",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-5": {
                 "texto": "Ya ni siquiera recuerdo cuál era la discusión  jajaja",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-6": {
                 "texto": "Jajaja tampoco yo",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-7": {
                 "texto": "Bueno, pero ya fueron suficientes risas. ¿Listos para trabajar?",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-8": {
                 "texto": "Mejor hay que dejarlo para mañana, ya me quiero ir a dormir ",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-9": {
                 "texto": "Jajaja opino lo mismo, hay que recargar energías y nos ponemos a trabajar",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-10": {
                 "texto": "Está bien, pero mañana a primera hora comenzamos, descansen :)",
-                "rol": "onvre"
+                "rol": "."
             },
             "C-id-11": {
                 "texto": "¡Hasta mañana!",
-                "rol": "onvre"
+                "rol": "."
             }
         },
         "decision-2": {
             "texto": "Te ofrezco una disculpa",
             "rol": "decision",
             "C-id-1": {
-                "texto": ".",
+                "texto": "Te ofrezo una disculpa, admito que me equivoqué",
                 "rol": "mujer"
             },
             "C-id-2": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Pero debes de reconocer que era algo fácil de malinterpretar porque yo apenas había dado mi explicación",
+                "rol": "."
             },
             "C-id-3": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "No veo la necesidad de volver a tocar el tema cuando ya me disculpé, creo que no vamos a trabajar tan bien como pensaba",
+                "rol": "."
             },
             "C-id-4": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Chicos, hay que dejar esto de lado, debemos ponernos a trabajar",
+                "rol": "."
             },
             "C-id-5": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Pues yo trataba de hacer eso pero la compañera parece no querer dejar el tema :man-shrugging:",
+                "rol": "."
             },
             "C-id-6": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Ambos ya paren por favor, este chat es para hacer la exposición, cualquier otra cosa háblenla de forma privada",
+                "rol": "."
             },
             "C-id-7": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Pero ya mañana continuamos, hoy ya es muy tarde y primero hay que descansar",
+                "rol": "."
             },
             "C-id-8": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "No lo sé, preferiría no trabajar con este equipo. Hablaré con la maestra para que no tengan que trabajar con una compañera tan molesta",
+                "rol": "."
             },
             "C-id-9": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Por favor no, vamos a perder tiempo valioso de trabajo",
+                "rol": "."
             },
             "C-id-10": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Déjala. Si no quiere trabajar con nosotros, mejor que se vaya con otro equipo",
+                "rol": "."
             },
             "C-id-11": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Adiós chicos, espero les vaya bien con la exposición, nos vemoooooos",
+                "rol": "."
             },
             "C-id-12": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "* se sale del chat *",
+                "rol": "."
             },
             "C-id-13": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Tienen que aprender a trabajar con los demás, ésta es la tercera persona que se sale de nuestro equipo, por favor, a este paso yo también me voy a salir",
+                "rol": "."
             },
             "C-id-14": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Ok, buenas noches :ok_hand:",
+                "rol": "."
             }
         },
         "decision-3": {
-            "texto": ".",
+            "texto": "Pues ya qué",
             "rol": "decision",
             "C-id-1": {
-                "texto": ".",
+                "texto": "Pues ya que, me disculpo por lo que según ustedes hice mal.",
                 "rol": "mujer"
             },
             "C-id-2": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Ya tampoco es pa tanto, ni siquiera empezamos a trabajar bien y ya se quieren agarrar a palos",
+                "rol": "."
             },
             "C-id-3": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Se ve que nos vamos a llevar bien jajaja",
+                "rol": "."
             },
             "C-id-4": {
-                "texto": ".",
-                "rol": "onvre"
+                "texto": "Pues ya mejor hay que ponerse a trabajar, que esto es para la siguiente clase",
+                "rol": "."
+            },
+            "C-id-5": {
+                "texto": "O mejor ya mañana, que yo ya me estoy quedando dormido, ahí se ven",
+                "rol": "."
+            },
+            "C-id-6": {
+                "texto": "Qué equipo tan trabajador",
+                "rol": "."
+            },
+            "C-id-7": {
+                "texto": "Pero apoyo la moción de dormir",
+                "rol": "."
+            },
+            "C-id-8": {
+                "texto": "¿Hola? ¿Alguien sigue conectado?",
+                "rol": "."
+            },
+            "C-id-9": {
+                "texto": "Rayos",
+                "rol": "."
             }
         }
     }
