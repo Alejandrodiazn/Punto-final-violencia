@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
-
-
 /* Color del fondo */
 .fondo {
     margin: 0;
@@ -26,6 +24,11 @@
     height: 70%;
 }
 
+.texto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /* Estilo del texto */
 .texto p {
     font-family: 'Marmelad', sans-serif;
@@ -40,23 +43,32 @@
 }
 
 /* Botón de regresar */
-.regresar {
+.texto button {
+    margin-top: 120px;
     background-color: #FFFFFF;
     border: 20px;
     color: #000000;
-    padding: 6% 14%;
+    padding: 10px 50px;
     font-size: 22px;
     align-items: center;
     display: inline-flex;
     border-radius: 20px;
     text-align: center;
+    top: 50%;
+    /* display: flex; */
+    /* position: absolute; */
+    /* margin-inline-start: 50%; */
+    /* justify-content: center; */
+
 }
 
 /* Alineación del botón */
 .boton {
     top: 50%;
-    display: flex;
+    /* display: flex; */
     position: absolute;
+    margin-inline-start: 50%;
+    justify-content: center;
 }
 
 /* Fondo moradito */

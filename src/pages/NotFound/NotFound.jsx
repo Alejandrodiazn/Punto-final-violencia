@@ -14,10 +14,9 @@ export const NotFound = () => {
                     <div className="moradito">
                         <div className="texto">
                             <p>¡Oh no!<br/>Página no encontrada</p>
+                            <button className="regresar" type="button">Regresar</button>
                         </div>
-                        <div className="boton">
-                            <button className="regresar" type="button" onClick={"history.back();"}>Regresar</button>
-                        </div>
+
                     </div>
                 </div>
             </div>
