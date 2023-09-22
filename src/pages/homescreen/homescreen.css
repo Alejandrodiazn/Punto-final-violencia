@@ -26,20 +26,15 @@
     width: 90%;
     height: 70vh;
     box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
-    display: grid; /* usar grid para disposición de botones */
-    grid-template-rows: auto 1fr; /* Primera fila auto, segunda fila se expande */
+    display: grid; /*usar grid para disposición de botones */
+    grid-template-rows: auto 1fr; /*Primera fila auto, segunda fila se expande */
     position: relative;
 
     background: linear-gradient(45deg, #80e4fa, #ff4ea4);
     }
 
 
-  .clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  .clock p{
     font-size: 1.5rem;
   }
   
@@ -47,11 +42,12 @@
   .buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
-    align-self: flex-end; /* Alinear botones en la parte inferior */
+    /* align-self: flex-end; Alinear botones en la parte inferior */
   }
   .buttons button {
-    width: calc(33.33% - 10px); /* Ancho de botón con margen */
+    /* width: calc(33.33% - 10px); Ancho de botón con margen */
     border-radius: 10px;
     background-color: transparent; /* Color de fondo, estaba como blanco*/ 
     display: flex;
@@ -63,27 +59,33 @@
   }
 
   .quick-access {
-    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente */
-    border-radius: 10px;
+    background: rgba(242, 242, 242, 0.47);
+    border-radius: 22px;
     padding: 10px;
     display: flex;
+    height: 99px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
+    align-self: flex-end;
   }
   
   .buttons button.quick-access img {
     width: 40px;
     height: 40px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   }
 
   .button-svg img{
     background-color: #fff;
     padding: 5px;
     border-radius: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #000;
   }
   
   
