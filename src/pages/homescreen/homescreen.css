@@ -142,14 +142,6 @@
   }
 
   .quick-access {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    padding: 1rem; /* Ajusta el padding para una mejor visualización en móviles */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between; /* Espacio uniforme entre elementos */
-    text-align: center;
     position: fixed; /* Fijar la sección en la parte inferior */
     bottom: 0;
     left: 0;
