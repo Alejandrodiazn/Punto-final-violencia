@@ -54,6 +54,8 @@ function HomeScreen() {
             Salir
           </div>
         </button>
+        
+        
         <div className='quick-access'>
         <button>
           <div className="button-svg">

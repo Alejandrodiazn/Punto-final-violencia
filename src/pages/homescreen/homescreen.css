@@ -31,7 +31,6 @@
     position: relative;
 
     background: linear-gradient(45deg, #80e4fa, #ff4ea4);
-    animation: rotatePhone 10s linear infinite; /* Rotación continua */
     }
 
 
@@ -88,27 +87,80 @@
   }
   
   
-  @media(max-width: 500px) {
-    /* Estilos para pantallas pequeñas */
+  body {
+    margin: 0;
   }
 
-  @keyframes changeGradient {
-    0% {
-      background: linear-gradient(45deg, #80e4fa, #ff4ea4);
-    }
-    25% {
-      background: linear-gradient(45deg, #ff4ea4, #ffc94e);
-    }
-    50% {
-      background: linear-gradient(45deg, #ffc94e, #5aff5c);
-    }
-    75% {
-      background: linear-gradient(45deg, #5aff5c, #80e4fa);
-    }
-    100% {
-      background: linear-gradient(45deg, #80e4fa, #ff4ea4);
-    }
+
+
+/* Dentro del Media Query para dispositivos móviles */
+@media (max-width: 640px) {
+  .container {
+    border: 0;
+    padding: 0;
+    max-width: 100%; /* Ancho máximo para que se ajuste a la pantalla */
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    box-shadow: none;
+    display: flex;
+    flex-direction: column; /* Colocar los elementos en columna */
+    justify-content: center; /* Centrar verticalmente los elementos */
+  }
+
+  .box {
+    border: 0;
+    padding: 0;
+    max-width: 100%; /* Ancho máximo para que se ajuste a la pantalla */
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    box-shadow: none;
+    display: flex;
+    flex-direction: column; /* Colocar los elementos en columna */
+    justify-content: center; /* Centrar verticalmente los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    flex-direction: column; /* Cambia la dirección del flujo de elementos a columna */
   }
   
+
+  .buttons {
+    display: grid; /* Cambiamos a grid para distribuir los botones */
+    grid-template-columns: repeat(3, 1fr); /* Creamos tres columnas iguales */
+    align-items: center; /* Centrar verticalmente los botones */
+    gap: 10px; /* Espacio entre botones */
+  }
+
+  .buttons button {
+    width: 100%; /* Ancho completo para ocupar toda la columna */
+    font-size: 1rem; /* Tamaño de fuente */
+  }
+  
+  .button-svg img {
+    width: 50px; /* Ajusta el tamaño de los iconos para dispositivos móviles */
+    height: 50px; /* Ajusta el tamaño de los iconos para dispositivos móviles */
+  }
+
+  .quick-access {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 1rem; /* Ajusta el padding para una mejor visualización en móviles */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    text-align: center;
+    position: fixed; /* Fijar la sección en la parte inferior */
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .buttons button.quick-access img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+}
+
 
   
