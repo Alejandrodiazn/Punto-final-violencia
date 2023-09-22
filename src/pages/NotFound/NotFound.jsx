@@ -1,10 +1,8 @@
 import "./NotFound.css";
 import React from "react";
-import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 export const NotFound = () => {
-    const navigate = useNavigate();
     return(
         <>
             <div className="inicio">
@@ -17,7 +15,11 @@ export const NotFound = () => {
                     <div className="moradito">
                         <div className="texto">
                             <p>¡Oh no!<br/>Página no encontrada</p>
-                            <button className="regresar" type="button" onClick={navigate("")}>Ir a inicio</button>
+                            <button className="regresar">
+                                <Link className="regresar" to="/">
+                                    Ir a inicio
+                                </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
