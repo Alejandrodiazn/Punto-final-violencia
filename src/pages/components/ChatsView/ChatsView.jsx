@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 
-import ChatsNav from '../ChatsNav/ChatsNav';
+import ChatsNav from '../ChatsNav/ChatsNav.jsx';
 import './ChatsView.css';
-
-const ChatsView = (props) =>{
+export default function ChatsView (props) {
     return(
         <div className='Chats'>
             <ChatsNav/>
@@ -39,5 +38,3 @@ const ChatsView = (props) =>{
         
     )
 }
-
-export default ChatsView; 
