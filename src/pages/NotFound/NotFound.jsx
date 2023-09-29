@@ -8,19 +8,21 @@ export const NotFound = () => {
             <div className="inicio">
                 <div className="fondo">
                     <div className="icono">
-                        <img 
-                            className="iconoNotFound"
-                            src="src\pages\NotFound\images\404_icon.png"/>
+                        <div className="imageContainer">
+                            <img 
+                                className="iconoNotFound"
+                                src="src\pages\NotFound\images\404_icon.png"/>
+                        </div>
                     </div>
                     <div className="moradito">
                         <div className="texto">
                             <p>¡Oh no!<br/>Página no encontrada</p>
-                            <button className="regresar">
-                                <Link className="regresar" to="/">
+                        </div>
+                        <button className="btn-regresar">
+                                <Link className="link-regresar" to="/">
                                     Ir a inicio
                                 </Link>
                             </button>
-                        </div>
                     </div>
                 </div>
             </div>
