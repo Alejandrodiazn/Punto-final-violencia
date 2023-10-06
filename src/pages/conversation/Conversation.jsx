@@ -22,10 +22,11 @@ export const Conversation = ({ username }) => {
           <h2>Conversación</h2>
         </div>
         <div className="conversation-body">
-          <IMessageBubble content={"Hola, soy Antonio LoquilloAAAAAAAAAAA AAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"} />
+          <IMessageBubble content={"Hola, soy Antonio LoquilloAAAAAAAAAAA AAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAA"} />
           <IMessageBubble content={"Hola, no soy Antonio Loquillo"} user={"user"} />
           <IMessageBubble content={"Hola, soy Antonio Loquillo"} />
-          <IMessageBubble content={"Hola, no soy Antonio Loquillo"} user={"user"} />"
+          <IMessageBubble content={"Hola, no soy Antonio Loquillo pero ulalá señor francés, camarón caramelo"} user={"user"} />
+          <IMessageBubble content={"Hola, no soy Antonio Loquillo pero ulalá señor francés, camarón caramelo"} user={"user"} />
         </div>
       </div>
     </>
