@@ -65,6 +65,7 @@
     line-height: normal;
 }
 .conversation-container{
-  height: 100vh;
+  height: 100%;
+  overflow-y: auto;
   background-image: url("src/pages/conversation/images/fondo-de-chat.png");
 }

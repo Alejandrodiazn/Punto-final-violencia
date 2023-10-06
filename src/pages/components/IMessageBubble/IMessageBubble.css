@@ -1,9 +1,10 @@
 .message-bubble {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   max-width: 70%;
-  margin: 5px;
-  border-radius: 20px;
+  margin: 25px 10px;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -12,40 +13,55 @@
 }
 
 .user-message {
-  background-color: #007bff;
+  background-color: #007BFF;
   color: white;
-  align-self: flex-end;
+  margin-left: 30%;
 }
 
 .other-message {
-  background-color: #f0f0f0;
+  background-color: #F0F0F0;
   color: #333;
-  align-self: flex-start;
+  margin-right: 30%;
 }
 
-.message-tip {
+.message-tip{
   position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  line-height: 20px;
+  border: none;
+  z-index: 0;
+  bottom: -19px;
+  left: 0%;
+}
+
+.user-tip{
+  margin-left: 77%;
+}
+
+.other-tip{
+  margin-right: 77%;
+}
+
+#img-tip{
+  width: 50px;
+}
+
+/* .message-tip {
+  display: inline-block;
   bottom: 0;
   width: 10px;
   height: 20px;
   background-color: inherit;
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-}
-
-.user-tip {
-  right: -5px;
-}
-
-.other-tip {
-  left: -5px;
-}
+} */
 
 /* ... Estilos previos ... */
 
-.message-tip {
+/* .message-tip {
   position: absolute;
-  bottom: -10px; /* Ajusta el valor según sea necesario */
-  width: 20px;
+  bottom: -10px; 
   height: 20px;
   display: flex;
   align-items: center;
@@ -57,9 +73,9 @@
   height: 12px;
   background-color: inherit;
   border-radius: 50%;
-  transform: rotate(45deg); /* Rota 45 grados para suavizar las esquinas */
-  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1); /* Agrega sombra para más suavidad */
-}
+  transform: rotate(45deg); // Rota 45 grados para suavizar las esquinas 
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1); // Agrega sombra para más suavidad
+} */
 
 /* ... Estilos previos ... */
 
