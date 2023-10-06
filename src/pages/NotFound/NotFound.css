@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@import url('../../palette/colorPalette.css');
+
+/* Estilos del body */
+.inicio {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Color del fondo */
+.fondo {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* Posicionar el ícono */
+.icono {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor de la imagen */
+.imageContainer {
+    width: 65%;
+}
+
+
+/* Imagen */
+.iconoNotFound {
+    width: 100%;
+    object-fit: contain;
+}
+
+.texto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Estilo del texto */
+.texto p {
+    font-family: 'Marmelad', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+    width: 100%;
+    text-align: center;
+}
+
+/* Botón de regresar */
+.btn-regresar {
+    background-color: #FFFFFF;
+    border: 20px;
+    color: #000000;
+    padding: 10px 50px;
+    font-size: 22px;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Fondo moradito */
+.moradito {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background-color:  var(--moradoIconos);
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+/* Estilo del link */
+.link-regresar {
+    color: black;
+    text-decoration: none;
+}
