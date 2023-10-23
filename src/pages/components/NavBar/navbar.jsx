@@ -24,6 +24,9 @@ const Navbar = () => {
           <li>
             <a href="#">Ayuda</a>
           </li>
+          <li>
+            <img src="src\pages\components\NavBar\images\logo_cd.png" alt="Logo de Centro de Desarrollo" />
+          </li>
         </ul>
       </nav>
 	  </>
